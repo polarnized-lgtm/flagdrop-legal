@@ -78,6 +78,14 @@ The Application relies on standard mobile platform services (such as Apple Push 
 
 You can stop all data processing by the Application easily by uninstalling it. You may use the standard uninstall processes available through your mobile device or application marketplace.
 
+\---
+
+layout: default
+
+title: Privacy Policy
+
+\---
+
 
 
 You can also disable notifications at any time in your device's system settings or within the Application's Settings screen.
