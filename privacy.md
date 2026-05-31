@@ -5,15 +5,15 @@ title: Privacy Policy
 
 # Privacy Policy
 
-_Last updated: April 23, 2026_
+_Last updated: May 30, 2026_
 
 This privacy policy applies to the FLAGDROP app (hereby referred to as "Application") for mobile devices, created by Velocity Apps (hereby referred to as "Service Provider") as a free service. This service is intended for use "AS IS".
 
 ## What information does the Application obtain and how is it used?
 
-FLAGDROP does not require registration or any personal information to use. The Application does not collect, store, or transmit any personally identifiable information about you.
+FLAGDROP does not require registration or an account, and does not collect personal information such as your name, email address, or contact details.
 
-The Application fetches publicly available motorsports race schedule data (race names, session times, circuits, broadcasters) from a backend service operated by the Service Provider. This backend contains only public racing schedule information — it does not store any information about you or your usage of the Application.
+The Application fetches publicly available motorsports race schedule data (race names, session times, circuits, broadcasters) from a backend service operated by the Service Provider. This backend stores public racing schedule information and, if you enable notifications, a push notification token for your device (see "Push Notifications" below). It does not store your name, an account, or which series or sessions you follow.
 
 ## What information is stored on your device?
 
@@ -26,6 +26,12 @@ The Application stores the following information locally on your device only:
 
 This data never leaves your device. The Service Provider has no access to it. You can clear this data at any time by uninstalling the Application or by using the "Clear all reminders" option within the Application's Settings screen.
 
+## Push Notifications
+
+If you enable notifications, the Application registers a push notification token for your device and sends it to the Service Provider's backend. This token is a unique identifier issued by your device's operating system and the Expo push service, and it allows the Service Provider to deliver notifications to your device. The Service Provider stores this token together with your device platform (iOS or Android) and the version of the Application you are running.
+
+This token does not identify you personally and is not linked to your name, an account, or the racing series and sessions you follow; those preferences remain only on your device, as described above. The Service Provider uses the token solely to deliver notifications, such as session reminders and occasional updates about the Application and its features. You can disable notifications at any time in the Application's Settings screen or your device's system settings, and tokens that are no longer valid are removed periodically.
+
 ## What about the backend?
 
 When the Application fetches race schedule data, the Service Provider's backend infrastructure (operated by Supabase) may log standard connection metadata, such as your device's IP address and the timestamp of the request. This metadata is used only to operate the service reliably, prevent abuse, and is not linked to you personally. This metadata is not shared with third parties for marketing, advertising, or analytics purposes.
@@ -36,9 +42,9 @@ No. The Application does not request or collect location information of any kind
 
 ## Do third parties see and/or have access to your information?
 
-No user information is collected, so no user data is shared with third parties.
+The Service Provider does not sell your information or share it with third parties for marketing, advertising, or analytics purposes.
 
-The Application relies on standard mobile platform services (such as Apple Push Notification Service on iOS and equivalent services on Android) to deliver race reminders. These services operate according to the privacy policies of their respective platform providers (Apple, Google) and do not receive any personally identifiable information from the Application.
+To deliver notifications, your device's push token is processed by standard push delivery services: the Expo push service and your platform provider's push service (Apple Push Notification service on iOS, and the equivalent service on Android). These services operate according to the privacy policies of their respective providers (Apple, Google, Expo). Apart from this delivery path, the push token is stored only on the Service Provider's backend and is not shared.
 
 ## What are my opt-out rights?
 
@@ -54,7 +60,7 @@ If you believe a child has provided personally identifiable information to the S
 
 ## Security
 
-Because the Application does not collect personally identifiable information from users, there is no user-level data at risk of unauthorized access. Connection metadata logged by the Service Provider's backend infrastructure is handled according to industry-standard security practices.
+The Application does not collect personal identity information such as your name or email address. The push notification tokens and connection metadata handled by the Service Provider's backend infrastructure are stored according to industry-standard security practices. Connection metadata logged by the Service Provider's backend infrastructure is handled according to industry-standard security practices.
 
 ## Changes
 
