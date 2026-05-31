@@ -64,6 +64,12 @@ This Privacy Policy may be updated from time to time for any reason. The Service
 
 By using the Application, you consent to the processing of information as set forth in this Privacy Policy, now and as amended by the Service Provider.
 
+## Track Map Attributions
+
+FlagDrop displays circuit layout diagrams for some events. Several of these diagrams are sourced from Wikimedia Commons and are used under the Creative Commons Attribution-ShareAlike license (CC BY-SA). The original works are credited to their respective authors on Wikimedia Commons, and any modifications made by FlagDrop (such as adjusting the image canvas for display) are made available under the same CC BY-SA license.
+Track diagrams used under CC BY-SA include: Sebring International Raceway, Canadian Tire Motorsport Park, Virginia International Raceway, and Michelin Raceway Road Atlanta, among others.
+Full source and license details for each diagram are available on Wikimedia Commons at commons.wikimedia.org.
+
 ## Contact
 
 If you have any questions regarding privacy while using the Application, or questions about these practices, please contact the Service Provider via email at feedback.flagdrop@gmail.com.
