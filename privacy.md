@@ -5,7 +5,7 @@ title: Privacy Policy
 
 # Privacy Policy
 
-_Last updated: May 30, 2026_
+_Last updated: August 13, 2026_
 
 This privacy policy applies to the FLAGDROP app (hereby referred to as "Application") for mobile devices, created by Velocity Apps (hereby referred to as "Service Provider") as a free service. This service is intended for use "AS IS".
 
@@ -24,13 +24,13 @@ The Application stores the following information locally on your device only:
 - **Per-session bell toggles:** which individual race sessions you have enabled push notifications for.
 - **Local timezone:** used to display race times in your local time.
 
-This data never leaves your device. The Service Provider has no access to it. You can clear this data at any time by uninstalling the Application or by using the "Clear all reminders" option within the Application's Settings screen.
+If you enable notifications, the preferences needed to deliver them are also synced to the Service Provider's backend together with your push notification token, as described under "Push Notifications" below. You can clear locally stored data at any time by uninstalling the Application or by using the "Clear all reminders" option within the Application's Settings screen.
 
 ## Push Notifications
 
-If you enable notifications, the Application registers a push notification token for your device and sends it to the Service Provider's backend. This token is a unique identifier issued by your device's operating system and the Expo push service, and it allows the Service Provider to deliver notifications to your device. The Service Provider stores this token together with your device platform (iOS or Android) and the version of the Application you are running.
+If you enable notifications, the Application registers a push notification token for your device and sends it to the Service Provider's backend. This token is a unique identifier issued by your device's operating system and the Expo push service, and it allows the Service Provider to deliver notifications to your device. The Service Provider stores this token together with your device platform (iOS or Android), the version of the Application you are running, your notification preferences (which series you follow, which session types notify you, per-session toggles, and your chosen lead times), your device's timezone (used to time reminders correctly), and whether a FlagDrop home or lock screen widget is installed (a single yes/no used to understand feature adoption).
 
-This token does not identify you personally and is not linked to your name, an account, or the racing series and sessions you follow; those preferences remain only on your device, as described above. The Service Provider uses the token solely to deliver notifications, such as session reminders and occasional updates about the Application and its features. You can disable notifications at any time in the Application's Settings screen or your device's system settings, and tokens that are no longer valid are removed periodically.
+This token does not identify you personally and is not linked to your name or an account. The synced preferences are used solely to deliver the notifications you asked for, and the widget indicator solely to understand how the widget feature is used. You can disable notifications at any time in the Application's Settings screen or your device's system settings, and tokens that are no longer valid are removed periodically.
 
 ## What about the backend?
 
